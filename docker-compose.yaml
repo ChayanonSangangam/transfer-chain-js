@@ -36,7 +36,7 @@ services:
           --endpoint tcp://validator:8800 \
           --bind component:tcp://eth0:4004 \
           --bind network:tcp://eth0:8800
-      "
+      "\
 
   settings-tp:
     image: hyperledger/sawtooth-tp_settings:0.8
